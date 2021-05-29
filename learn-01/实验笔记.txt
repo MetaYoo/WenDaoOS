@@ -1,0 +1,7 @@
+1. win10 diskpart命令创建虚拟磁盘 
+    create vdisk file=D:\vhd16M.vhd maximum=16 type=fixed
+
+2. 将helloworld程序写入虚拟磁盘
+    dd if=HelloWorld.bin of=vhd16M.vhd bs=512 count=1dd if=HelloWorld.bin of=vhd16M.vhd bs=512 count=1
+
+
